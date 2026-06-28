@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uvx:*)",
+      "Bash(npx:*)",
+      "Bash(npm search:*)",
+      "Bash(npm view:*)",
+      "Bash(claude mcp list:*)",
+      "Bash(mcp__puppeteer__puppeteer_navigate url=\"https://webtest.woniuxiaodian.cn/index\")",
+      "Bash(python:*)",
+      "Bash(/usr/bin/python3:*)",
+      "Bash(/usr/local/bin/python3.12:*)",
+      "Bash(claude mcp remove:*)",
+      "Bash(claude mcp get:*)",
+      "Bash(claude mcp puppeteer_navigate:*)",
+      "Bash(python3 -m pytest:*)",
+      "Bash(allure generate:*)",
+      "Bash(allure open:*)",
+      "Bash(python3:*)",
+      "Bash(git add:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "puppeteer"
+  ]
+}

@@ -1,0 +1,46 @@
+# 测试账号配置
+test_account:
+  valid:
+    phone: "15983891506"
+    password: "luoting520"
+    shop_id: 6419
+  invalid_password:
+    phone: "15983891506"
+    password: "wrong_password"
+    shop_id: 6419
+  invalid_phone:
+    phone: "00000000000"
+    password: "luoting520"
+    shop_id: 6419
+  empty_phone:
+    phone: ""
+    password: "luoting520"
+    shop_id: 6419
+  empty_password:
+    phone: "15983891506"
+    password: ""
+    shop_id: 6419
+  sql_injection:
+    phone: "15983891506"
+    password: "' OR 1=1 --"
+    shop_id: 6419
+  xss_injection:
+    phone: "<script>alert(1)</script>"
+    password: "luoting520"
+    shop_id: 6419
+
+# 默认门店信息
+shop:
+  shop_id: 6419
+  store_id: 5238
+  invalid_shop_id: 999999999
+
+# 测试会员
+member:
+  existing_member_id: 1020413
+  non_existent_member_id: 999999999
+
+# 支付方式: 3=现金, 2=微信
+pay_way:
+  cash: 3
+  wechat: 2

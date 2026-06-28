@@ -1,0 +1,23 @@
+# 收银台测试数据
+cash:
+  # 加购商品数量
+  add_cart:
+    num: 1
+
+  # 下单参数（现金支付）
+  order:
+    pay_ways:
+      - way: 3
+        price: 50
+    price: 50
+
+  # 商品搜索关键词
+  search_keywords:
+    - "测试"
+    - ""
+
+# 会员搜索关键词
+member:
+  search_keywords:
+    - ""
+    - "1020413"

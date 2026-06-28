@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 测试报告（本地生成，CI 会重新生成）
+woniu_api_test/reports/allure-results/
+woniu_api_test/reports/allure-report/
+
+# 敏感配置（如果有）
+**/config/local.yaml
+**/config/.env
+**/.env.local
+
+# 日志
+*.log
+logs/
+
+# pytest 缓存
+.pytest_cache/
+.cache/
+
+# 临时文件
+*.tmp
+*.temp

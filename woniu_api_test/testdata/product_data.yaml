@@ -1,0 +1,228 @@
+# 商品测试数据
+product:
+  # 新建商品参数
+  new_sku:
+    sku:
+      shopId: "6419"
+      product_id: 0
+      is_server: 0
+      name: "自动化测试商品"
+      category_id: 97383
+      in_price: 10
+      out_price: 50
+      percentage: 0
+      stocks: null
+      plus_price: 0
+      notice_stocks: 1
+      weight: 0
+      logo_images: []
+      detail_images: []
+      brand_id: null
+      brand_name: ""
+      version: 1
+      applicable_species: []
+    add_spu: 0
+    shop_id: 6419
+
+  # 新建商品（带规格，用于创建组合商品）
+  new_sku_with_spec:
+    sku:
+      shopId: "6419"
+      product_id: 0
+      is_server: 0
+      name: "自动化测试商品"
+      specifications: "500g"
+      category_id: 97383
+      in_price: 10
+      out_price: 50
+      percentage: 0
+      stocks: null
+      plus_price: 0
+      notice_stocks: 1
+      weight: 0
+      logo_images: []
+      detail_images: []
+      brand_id: null
+      brand_name: ""
+      version: 1
+      applicable_species: []
+    add_spu: 0
+    shop_id: 6419
+
+  # 新建商品 — 缺少必填字段
+  new_sku_missing_name:
+    sku:
+      shopId: "6419"
+      product_id: 0
+      is_server: 0
+      category_id: 97383
+      out_price: 50
+    add_spu: 0
+    shop_id: 6419
+
+  # 新建商品 — 价格为0
+  new_sku_zero_price:
+    sku:
+      shopId: "6419"
+      product_id: 0
+      is_server: 0
+      name: "零元商品"
+      category_id: 97383
+      out_price: 0
+      version: 1
+    add_spu: 0
+    shop_id: 6419
+
+  # 新建商品 — 负数价格
+  new_sku_negative_price:
+    sku:
+      shopId: "6419"
+      product_id: 0
+      is_server: 0
+      name: "负数价格商品"
+      category_id: 97383
+      out_price: -1
+      version: 1
+    add_spu: 0
+    shop_id: 6419
+
+  # 新建商品 — 特殊字符名称
+  new_sku_special_name:
+    sku:
+      shopId: "6419"
+      product_id: 0
+      is_server: 0
+      name: "<script>alert(1)</script>"
+      category_id: 97383
+      out_price: 50
+      version: 1
+    add_spu: 0
+    shop_id: 6419
+
+  # 条码查询测试用例
+  barcodes:
+    not_found:
+      - "12345678"
+      - "123456789"
+      - "1234567890"
+    empty: ""
+    special_chars: "ABC!@#$$%"
+    sql_injection: "1' OR '1'='1"
+    valid: ""
+
+  # 入库参数
+  stock_in:
+    number: 5
+    mark: "自动化测试入库"
+
+  # 入库 — 边界值
+  stock_in_boundary:
+    zero: 0
+    negative: -1
+    large: 999999
+
+# 标签测试数据
+tag:
+  new_tag_name: "自动化测试标签"
+  empty_name: ""
+  special_name: "<script>test</script>"
+
+# 供应商测试数据
+supplier:
+  new_supplier:
+    shop_id: 6419
+    name: "自动化测试供应商"
+    phone: "13800000000"
+    contact: "测试联系人"
+    address: "测试地址"
+    mark: "自动化创建"
+
+# 批量入库测试数据
+batch_stock:
+  # 正常入库数据
+  normal_items:
+    - inPrice: 10
+      number: 10
+      productId: 0          # 运行时由创建接口返回
+    - inPrice: 10
+      number: 10
+      productId: 0
+  normal_mark: "自动化测试批量入库"
+  # 边界值
+  boundary:
+    zero_number: 0
+    negative_number: -1
+    large_number: 999999
+    zero_price: 0
+    negative_price: -1
+
+# 组合商品（SPU）测试数据
+combo_product:
+  # 正常创建组合商品（spu_id="0" 表示新建）
+  normal_create:
+    spu_category_id: 2019135
+    name: "自动化测试组合商品"
+    detail: "组合商品测试简介"
+    logo_images:
+      - "https://files.woniuxiaodian.cn/test/a547c80c-b130-4d36-8dc6-da51a0383238.png"
+    detail_images:
+      - "https://files.woniuxiaodian.cn/test/54f719c8-b4a7-42c4-8975-ad2f6d535e0f.png"
+    video: ""
+    is_common_goods: 0
+    spu_id: "0"
+    product_ids: []        # 运行时由创建商品接口返回
+    shop_id: 6419
+
+  # 编辑组合商品（spu_id 填入实际值）
+  normal_edit:
+    spu_category_id: 2019135
+    name: "自动化测试组合商品-已更新"
+    detail: "组合商品测试简介-已更新"
+    logo_images:
+      - "https://files.woniuxiaodian.cn/test/a547c80c-b130-4d36-8dc6-da51a0383238.png"
+    detail_images:
+      - "https://files.woniuxiaodian.cn/test/54f719c8-b4a7-42c4-8975-ad2f6d535e0f.png"
+    video: ""
+    is_common_goods: 0
+    spu_id: ""             # 运行时填入
+    product_ids: []
+    shop_id: 6419
+
+  # 异常：空名称
+  empty_name:
+    spu_category_id: 2019135
+    name: ""
+    detail: ""
+    logo_images: []
+    detail_images: []
+    video: ""
+    is_common_goods: 0
+    spu_id: "0"
+    product_ids: []
+    shop_id: 6419
+
+  # 异常：空子商品列表
+  empty_product_ids:
+    spu_category_id: 2019135
+    name: "无子商品组合"
+    detail: ""
+    logo_images: []
+    detail_images: []
+    video: ""
+    is_common_goods: 0
+    spu_id: "0"
+    product_ids: []
+    shop_id: 6419
+
+  # 安全：XSS 名称
+  xss_name:
+    spu_category_id: 2019135
+    name: "<script>alert('combo')</script>"
+    detail: ""
+    logo_images: []
+    detail_images: []
+    video: ""
+    is_common_goods: 0
+    spu_id: "0"
+    product_ids: []
+    shop_id: 6419

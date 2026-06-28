@@ -1,0 +1,151 @@
+# 会员测试数据
+
+# 新增会员 - 正常数据
+new_member:
+  normal:
+    name: "自动化测试会员"
+    phone: "13800138001"
+    spare_phone: "13800138002"
+    sex: 1
+    mark: "自动化测试备注"
+    addr: ""
+    cardNumber: ""
+    is_spending_msg: 1
+    is_open_upgrade: 1
+    shopId: "6419"
+    shop_id: 6419
+    member_tags: ""
+    pets:
+      - name: "测试宠物"
+        speciesId: 3
+        sex: 1
+        color: "黄色"
+        weight_new: 5
+        mark: "宠物备注"
+        birthday: "1780243200"
+        is_sterilization: 0
+
+  # 多宠物会员
+  multi_pets:
+    name: "多宠物会员"
+    phone: "13800138003"
+    sex: 2
+    shopId: "6419"
+    shop_id: 6419
+    is_spending_msg: 1
+    is_open_upgrade: 1
+    pets:
+      - name: "宠物一"
+        speciesId: 3
+        sex: 1
+        color: "红"
+        weight_new: 10
+        is_sterilization: 0
+      - name: "宠物二"
+        speciesId: 1
+        sex: 2
+        color: "白"
+        weight_new: 8
+        is_sterilization: 1
+
+# 异常数据
+invalid_member:
+  # 缺少手机号
+  missing_phone:
+    name: "无手机会员"
+    sex: 1
+    shopId: "6419"
+    shop_id: 6419
+    pets: []
+
+  # 空名称
+  empty_name:
+    name: ""
+    phone: "13800138004"
+    sex: 1
+    shopId: "6419"
+    shop_id: 6419
+    pets: []
+
+  # 无效手机号格式
+  invalid_phone_format:
+    name: "测试会员"
+    phone: "123"
+    sex: 1
+    shopId: "6419"
+    shop_id: 6419
+    pets: []
+
+  # SQL 注入
+  sql_injection:
+    name: "' OR 1=1 --"
+    phone: "13800138005"
+    sex: 1
+    shopId: "6419"
+    shop_id: 6419
+    pets: []
+
+  # XSS 注入
+  xss_injection:
+    name: "<script>alert('xss')</script>"
+    phone: "13800138006"
+    sex: 1
+    shopId: "6419"
+    shop_id: 6419
+    pets: []
+
+# 标签数据
+tags:
+  normal: "测试标签"
+  empty: ""
+  special_chars: "测试<>&标签"
+  long_name: "这是一个非常非常非常非常非常非常非常非常长的标签名称用于测试边界情况"
+
+# 搜索关键词
+search_keywords:
+  valid:
+    - "Mia"
+    - "测试"
+    - "13698106099"
+  special:
+    - "<script>alert(1)</script>"
+    - "' OR 1=1 --"
+    - ""
+    - "不存在的会员名称XXXXXX"
+
+# 分页参数
+pagination:
+  normal:
+    page: 1
+    limit: 15
+  first_page:
+    page: 1
+    limit: 1
+  large_page:
+    page: 9999
+    limit: 15
+  zero_page:
+    page: 0
+    limit: 15
+  negative_page:
+    page: -1
+    limit: 15
+
+# RFM 等级
+rfm_levels:
+  - level: 1
+    title: "重要价值客户"
+  - level: 2
+    title: "重要发展客户"
+  - level: 3
+    title: "重要保持客户"
+  - level: 4
+    title: "重要挽留客户"
+  - level: 5
+    title: "一般价值客户"
+  - level: 6
+    title: "一般发展客户"
+  - level: 7
+    title: "一般保持客户"
+  - level: 8
+    title: "一般挽留客户"
