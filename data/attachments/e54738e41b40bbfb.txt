@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/spu/cash_list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"list":null,"pager":{"limit":50,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0}},"code":0,"biz_code":0,"message":"","trace_id":"64d2d74c166e6ef1","success":true,"req_id":"fa5c9e947fde0f098a5011d9d74419b1"}

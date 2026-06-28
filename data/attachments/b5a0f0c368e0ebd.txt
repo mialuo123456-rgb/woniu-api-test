@@ -1,0 +1,2 @@
+2026-06-28 13:47:39 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+2026-06-28 13:47:39 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"手机号码格式错误","trace_id":"53c859238f011f4b","success":false,"req_id":"27e8bc4f75254a241128e178bbe0dcaf"}

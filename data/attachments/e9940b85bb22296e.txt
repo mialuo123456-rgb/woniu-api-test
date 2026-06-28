@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Shop/getMemberLevelList
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":null,"code":0,"biz_code":0,"message":"","trace_id":"26e9e0d85d9574c1","success":true,"req_id":"b799994c1721ea2c6f23b6cd22ecf541"}

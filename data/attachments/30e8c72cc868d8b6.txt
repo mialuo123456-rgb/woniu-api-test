@@ -1,0 +1,2 @@
+2026-06-28 13:46:39 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+2026-06-28 13:46:40 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"与自动化测试会员电话重复","trace_id":"0750b19fd35621eb","success":false,"req_id":"5f4a4b92844d15ee6b7142b0138604c7"}

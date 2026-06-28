@@ -1,0 +1,2 @@
+2026-06-28 13:47:36 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/member/balance/log
+2026-06-28 13:47:37 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"all_recharge":10100,"all_give":0,"all_consume":1100,"all_shopping_card_give":0,"all_return_member_card":-0,"head":[{"all_num":10,"date":20230629,"recharge":0,"consume":-1000,"list":[{"id":96110,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","member_id":1020413,"opt_user_i

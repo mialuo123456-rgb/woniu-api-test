@@ -1,0 +1,2 @@
+2026-06-28 13:48:33 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/product/update/lotStock
+2026-06-28 13:48:33 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"5fc05b84d61065a0","success":true,"req_id":"702038e1d0165a1d9c20467d42c2200b"}

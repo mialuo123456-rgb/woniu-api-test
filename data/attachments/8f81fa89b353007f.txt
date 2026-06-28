@@ -1,0 +1,23 @@
+2026-06-28 13:49:26 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:26 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"06812b156885afcb","success":false,"req_id":"136547b239e0aa17c6a4bb5fe54f1f09"}
+2026-06-28 13:49:26 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:28 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:28 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553682},"code":0,"biz_code":0,"message":"","trace_id":"3770646371c49889","success":true,"req_id":"4f95df9448ccf71ad35890971a1b5764"}
+2026-06-28 13:49:29 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:29 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"01b17af4a34f52f4","success":false,"req_id":"81ae78e78a59cc4badbe3173bf3c2816"}
+2026-06-28 13:49:29 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:31 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:31 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"7ef862291360a956","success":false,"req_id":"4ad6e446bc8baaca68b338833ab9b0c0"}
+2026-06-28 13:49:31 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 3.0s 后重试 (2/3)
+2026-06-28 13:49:34 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:35 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553683},"code":0,"biz_code":0,"message":"","trace_id":"60f4150286a62c5a","success":true,"req_id":"8d7b6d91a7cf6b4cbc13dc1e2c6f8174"}
+2026-06-28 13:49:35 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/product/compute/in_price
+2026-06-28 13:49:35 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":10,"code":0,"biz_code":0,"message":"","trace_id":"7d9d6429ad8ff496","success":true,"req_id":"3d749793b5bc6c36fe30cd26cd748b5e"}
+2026-06-28 13:49:35 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/product/compute/in_price
+2026-06-28 13:49:35 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":10,"code":0,"biz_code":0,"message":"","trace_id":"70ab999784fdad9a","success":true,"req_id":"76f9d7e8e642b4edca5291966912ea5f"}
+2026-06-28 13:49:35 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/product/update/lotStock
+2026-06-28 13:49:35 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"3284fb1c47fa3eed","success":true,"req_id":"c47d3b7374a1a1ca6518305fa9f8f902"}
+2026-06-28 13:49:35 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/manage_list
+2026-06-28 13:49:35 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":[{"name":"自动化测试商品","head_image":"","stock":10,"barcode":"","spu_id":"","product_id":104553683,"price_desc":"¥50.00","out_price":50,"in_price":10,"vip_price_desc":"","specification":"","order_by_data":"更新时间: 2026-06-28 21:49","category_id":97383,"is_server":0,"skus":null,"sp
+2026-06-28 13:49:35 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Product/batch_update
+2026-06-28 13:49:36 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"1db4720f463e7786","success":true,"req_id":"fff29fa10de6cd7e348f8689dbc3938f"}

@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/spu/cash_list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"list":[{"name":"测试 1","head_image":"","stock":0,"is_server":0,"price_desc":"¥100.00","cash_product_type":0,"combination_data":null,"cash_sku_data":{"activities":null,"product_id":104463434,"join_combination":0,"member_icons":"","notice":"","is_common_goods":0},"cash_spu_data":nul

@@ -1,0 +1,2 @@
+2026-06-28 13:50:04 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Shop/Certification/get
+2026-06-28 13:50:04 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"id":2047,"shop_id":6419,"store_id":5238,"apply_user_id":1000482,"name":"微信注册测试账号","phone":"15983891506","address":"我","province":"湖北省","city":"武汉市","district":"江岸区","area":0,"weixin":"15983891506","signs_image":"https://files.woniuxiaodian.cn/release/user/fdf0f440-6e4d-11f1-bf36-

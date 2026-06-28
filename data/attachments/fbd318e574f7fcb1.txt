@@ -1,0 +1,4 @@
+2026-06-28 13:46:01 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Passport/login
+2026-06-28 13:46:02 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"token":{"token":"580c4e593999458e233e42e8d82691c7","re_token":"76e15fdeaee4257f12c660923476dd89","ttl":2592000,"user_id":1000482},"user":{"user_id":1000482,"uid":33943735586792808,"phone":"15983891506","truename":"15983891506","nickname":"","sex":1,"created":1680144410,"city":"",
+2026-06-28 13:46:02 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/cash_category
+2026-06-28 13:46:03 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":[{"name":"常用商品","pid":0,"category_id":-2,"cash_category_type":-2,"list":[{"name":"全部","pid":-2,"category_id":-2,"cash_category_type":-2},{"name":"门店常用","pid":-2,"category_id":-7,"cash_category_type":-2},{"name":"近期热销","pid":-2,"category_id":-6,"cash_category_type":-2}]},{"name":"猫粮

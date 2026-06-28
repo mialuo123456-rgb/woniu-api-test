@@ -1,0 +1,2 @@
+2026-06-28 13:47:27 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/getById
+2026-06-28 13:47:28 [INFO] utils.api_client: [RESP] 400 body={"error":1,"data":null,"code":400,"biz_code":400,"message":"Type unknown memberId","trace_id":"3099ba0d4d7468ad","success":false,"req_id":"bfc53e636ebb98f3d786c505b1e235ae"}

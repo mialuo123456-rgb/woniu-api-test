@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/shopping_card/get/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"list":[],"pager":{"limit":99,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0}},"code":0,"biz_code":0,"message":"","trace_id":"1c6b195a61a4b384","success":true,"req_id":"406d6bdf2d3e23ee3949cf312c55cfa6"}

@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/sku/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"list":[{"name":"测试商品","stock":0,"barcode":"0000782559359","spu_id":"-104534575","sort":0,"product_id":104534575,"category_id":2019135,"specification":"1","is_server":0,"out_price":100,"in_price":10,"head_image":"","applicable_specie_names":""},{"name":"","stock":0,"barcode":"","s

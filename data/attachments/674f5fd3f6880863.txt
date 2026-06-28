@@ -1,0 +1,2 @@
+2026-06-28 13:47:56 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Shop/getCategories
+2026-06-28 13:47:56 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":[{"category_id":2019134,"name":"猫粮","pid":0,"shop_id":6419,"store_id":5238,"brand_product_cid":1,"type":0,"is_show":0,"dimension":"","sort":0,"is_del":0,"created":74202,"updated":74202,"system_category_kind":0,"cash_category_type":0,"list":[{"category_id":2019135,"name":"猫干粮/奶糕","p

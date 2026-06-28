@@ -1,0 +1,2 @@
+2026-06-28 13:47:37 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+2026-06-28 13:47:38 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":26476943,"code":0,"biz_code":0,"message":"","trace_id":"172bb0ac32674cf9","success":true,"req_id":"efdc76be8bbcdbd0b7f01b43a67ca02a"}

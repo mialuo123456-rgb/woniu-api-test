@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/carts/build_order_new
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请选择商品","trace_id":"58aa70bb6e27f9ba","success":false,"req_id":"01dabb9658208422fc4df3f559e7a87e"}

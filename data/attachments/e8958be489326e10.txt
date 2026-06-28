@@ -1,0 +1,2 @@
+2026-06-28 13:50:03 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/User/getUserInfo
+2026-06-28 13:50:03 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"user_id":1000482,"uid":33943735586792808,"phone":"15983891506","truename":"15983891506","nickname":"","sex":1,"created":1680144410,"city":"","birthday":0,"intro":"","last_login_time":1782647934,"regist_os":"FromAddStaff","regist_version":"","regist_ip":"","regist_city":"","regist

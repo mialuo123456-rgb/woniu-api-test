@@ -1,0 +1,4 @@
+2026-06-28 13:46:46 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/shop/tags/add
+2026-06-28 13:46:47 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":2125,"code":0,"biz_code":0,"message":"","trace_id":"42eb2b36b93d37bf","success":true,"req_id":"db7bca9a8e4c6cdf46eb8556a7a3dcae"}
+2026-06-28 13:46:47 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+2026-06-28 13:46:47 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":26476940,"code":0,"biz_code":0,"message":"","trace_id":"2fecafb54677ad99","success":true,"req_id":"f190015e36e16c107ce9b6fe27613dca"}

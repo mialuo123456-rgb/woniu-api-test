@@ -1,0 +1,2 @@
+2026-06-28 13:47:12 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/get_list/new_simple
+2026-06-28 13:47:13 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"members":[{"member_id":1020413,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"Mia","pin_code":"m miahh haha","avatar":"","phone":"13698106099","sex":1,"birthday":0,"birth_year_day":0,"mark":"","addr":"","qq":"","weixin":"","email":"","integral":1800.01,"spending":

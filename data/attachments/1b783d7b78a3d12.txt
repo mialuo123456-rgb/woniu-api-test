@@ -1,0 +1,2 @@
+2026-06-28 13:47:57 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/product_tags/list
+2026-06-28 13:47:57 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":[{"tag_id":561,"name":"代售","shop_id":6419,"store_id":0,"user_id":0,"product_num":0,"product_name_desc":"","created":0,"updated":0},{"tag_id":562,"name":"存货","shop_id":6419,"store_id":0,"user_id":0,"product_num":0,"product_name_desc":"","created":0,"updated":0},{"tag_id":563,"name":

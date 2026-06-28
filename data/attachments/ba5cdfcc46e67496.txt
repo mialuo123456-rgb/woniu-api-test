@@ -1,0 +1,2 @@
+2026-06-28 13:47:35 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/marketing_activity/list
+2026-06-28 13:47:35 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":[],"pager":{"limit":30,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0}},"code":0,"biz_code":0,"message":"","trace_id":"5e62555f256d30cc","success":true,"req_id":"0bb2f2dcb4a04983eebc42ef998efb7b"}

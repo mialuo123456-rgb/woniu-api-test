@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/merchant/category/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":[{"id":-1,"name":"全部"}],"code":0,"biz_code":0,"message":"","trace_id":"4aa307ce946cceac","success":true,"req_id":"c99636cefa03ab932a14094a8d3aee00"}

@@ -1,0 +1,2 @@
+2026-06-28 13:46:24 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/shopping_card/get/list/for/member
+2026-06-28 13:46:24 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":null,"pager":{"limit":99,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0}},"code":0,"biz_code":0,"message":"","trace_id":"6e7c069a9ac9de4b","success":true,"req_id":"2c2d393a09eeb0f6909a0d4dfe20c090"}

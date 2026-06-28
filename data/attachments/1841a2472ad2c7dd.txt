@@ -1,0 +1,6 @@
+2026-06-28 13:47:43 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+2026-06-28 13:47:43 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":26476949,"code":0,"biz_code":0,"message":"","trace_id":"3e683541e39a8d48","success":true,"req_id":"10b61f12e1887efaee4d024869abb9b0"}
+2026-06-28 13:47:43 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/getMemberOnceCards
+2026-06-28 13:47:43 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":null,"code":0,"biz_code":0,"message":"","trace_id":"685ef24d9b003528","success":true,"req_id":"106b6d7d65c88878f11087794ea7f592"}
+2026-06-28 13:47:43 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/member/balance/log
+2026-06-28 13:47:43 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"all_recharge":0,"all_give":0,"all_consume":-0,"all_shopping_card_give":0,"all_return_member_card":-0,"head":null,"pager":{"limit":10,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0}},"code":0,"biz_code":0,"message":"","trace_id":"47e22dba2fff888f","succ

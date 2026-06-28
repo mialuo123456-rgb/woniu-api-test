@@ -1,0 +1,46 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/carts/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":null,"shop_id":6419,"store_id":5238,"notice_vip_info":"","notice_vip_kind":0,"user_id":1000482,"member_id":-1,"cart_type":0,"out_id":0,"member_info":null,"os":"macos","deposit":0,"deposit_pay_way":0,"total_num":0,"total_product_price":0,"total_price":0,"pre_total_price"
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/cats/change_member
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":null,"shop_id":6419,"store_id":5238,"notice_vip_info":"","notice_vip_kind":0,"user_id":1000482,"member_id":-1,"cart_type":0,"out_id":0,"member_info":null,"os":"macos","deposit":0,"deposit_pay_way":0,"total_num":0,"total_product_price":0,"total_price":0,"pre_total_price"
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553666},"code":0,"biz_code":0,"message":"","trace_id":"7bee4ada29529bcf","success":true,"req_id":"e22d55ff3657ba20c5ebdd9f17a11e1f"}
+INFO     testcases.test_cash:test_cash.py:323 [Step1] 新建商品成功: product_id=104553666
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/product/update/stocks
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"39b90a57201f2443","success":true,"req_id":"81c7cdfbac4349da91f9aaf759ee793e"}
+INFO     testcases.test_cash:test_cash.py:332 [Step2] 商品入库成功
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/cats/change_member
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":null,"shop_id":6419,"store_id":5238,"notice_vip_info":"","notice_vip_kind":0,"user_id":1000482,"member_id":-1,"cart_type":0,"out_id":0,"member_info":null,"os":"macos","deposit":0,"deposit_pay_way":0,"total_num":0,"total_product_price":0,"total_price":0,"pre_total_price"
+INFO     testcases.test_cash:test_cash.py:337 [Step3] 购物车已重置
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/spu/cash_list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"list":[{"name":"自动化测试商品 ","head_image":"","stock":5,"is_server":0,"price_desc":"¥50.00","cash_product_type":0,"combination_data":null,"cash_sku_data":{"activities":null,"product_id":104553666,"join_combination":0,"member_icons":"","notice":"","is_common_goods":0},"cash_spu_data":
+INFO     testcases.test_cash:test_cash.py:342 [Step4] 搜索商品完成
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/carts/add_product
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":[{"product_id":104553666,"del_activity_product_ids":null,"activity_id":0,"activity_auto_id":0,"split_out_id":0,"shop_id":6419,"num":1,"batch_codes":null,"opt_user_id":1000482,"percentage":0,"actual_price_sum":50,"discount":10,"pre_discount":0,"pre_price":0,"combination_
+INFO     testcases.test_cash:test_cash.py:349 [Step5] 加购成功: total_price=50
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/cats/change_member
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":[{"product_id":104553666,"del_activity_product_ids":null,"activity_id":0,"activity_auto_id":0,"split_out_id":0,"shop_id":6419,"num":1,"batch_codes":null,"opt_user_id":1000482,"percentage":0,"actual_price_sum":50,"discount":10,"pre_discount":0,"pre_price":0,"combination_
+INFO     testcases.test_cash:test_cash.py:355 [Step6] 已切换会员: member_id=1020413
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/getById
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"member_id":1020413,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"Mia","pin_code":"m miahh haha","avatar":"","phone":"13698106099","sex":1,"birthday":0,"birth_year_day":0,"mark":"","addr":"","qq":"","weixin":"","email":"","integral":1750.01,"spending":1850.01,"car
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/getMemberOnceCards
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":null,"code":0,"biz_code":0,"message":"","trace_id":"0e497cf8f2c95f1b","success":true,"req_id":"919ca89b74624d269893f2858d52d88a"}
+INFO     testcases.test_cash:test_cash.py:364 [Step7] 会员详情查询完成
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/shop_pay_way/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"other_pay_way_list":[{"id":75112,"opt_user_id":1000482,"shop_id":6419,"store_id":5238,"name":"现金支付","pay_way":3,"sort_id":2,"scenes":",1,2,3,4,5,6,7,8,9,","is_show":1,"created_at":0,"web_icon":["https://files.woniuxiaodian.cn/release/a3566af107fbf3f607b3df556d93a91f.png","https:/
+INFO     testcases.test_cash:test_cash.py:372 [Step8] 获取支付方式: ['现金支付', '微信支付', '支付宝', '刷卡支付', '美团支付', '大众点评', '饿了么', '抖音', '其他支付', '会员余额', '欠款支付']
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/carts/build_order_new
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"order_id":105520714,"new_medicine_notice":{"need_notice":false,"medicine_product_names":"","create_notice":false,"more_medicine_set":false}},"code":0,"biz_code":0,"message":"","trace_id":"109c6a7dcbfb5f0a","success":true,"req_id":"81ab33f92b15c6bc8afb5b1f856f7c59"}
+INFO     testcases.test_cash:test_cash.py:383 [Step9] 下单成功: order_id=105520714
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/print/data
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"store_name":"微信注册测试账号","store_logo":"","order_number":"105520714","cashier":"店长","member_id":1020413,"customer_name":"Mia","customer_phone":"136****6099","customer_pets":[{"pet_name":"哈哈","pet_species":"狗狗","pet_weight":0}],"member_balance":9200,"member_integral":1800.01,"product
+INFO     testcases.test_cash:test_cash.py:390 [Step10] 打印小票成功: 微信注册测试账号
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/cats/change_member
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":null,"shop_id":6419,"store_id":5238,"notice_vip_info":"","notice_vip_kind":0,"user_id":1000482,"member_id":-1,"cart_type":0,"out_id":0,"member_info":null,"os":"macos","deposit":0,"deposit_pay_way":0,"total_num":0,"total_product_price":0,"total_price":0,"pre_total_price"
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Product/delByIds
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"0d77394edfc5420c","success":true,"req_id":"bae56d2fdd72500ff4becfd077f7a6d5"}
+INFO     testcases.test_cash:test_cash.py:397 [清理] 删除商品 104553666: 
+INFO     testcases.test_cash:test_cash.py:398 [完成] 业务场景测试结束, order_id=105520714
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/carts/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":null,"shop_id":6419,"store_id":5238,"notice_vip_info":"","notice_vip_kind":0,"user_id":1000482,"member_id":-1,"cart_type":0,"out_id":0,"member_info":null,"os":"macos","deposit":0,"deposit_pay_way":0,"total_num":0,"total_product_price":0,"total_price":0,"pre_total_price"
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/cats/change_member
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":null,"shop_id":6419,"store_id":5238,"notice_vip_info":"","notice_vip_kind":0,"user_id":1000482,"member_id":-1,"cart_type":0,"out_id":0,"member_info":null,"os":"macos","deposit":0,"deposit_pay_way":0,"total_num":0,"total_product_price":0,"total_price":0,"pre_total_price"

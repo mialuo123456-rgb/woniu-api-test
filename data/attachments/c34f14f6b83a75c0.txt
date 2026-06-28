@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Shop/getOnceCards
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":null,"code":0,"biz_code":0,"message":"","trace_id":"45048251ea1b1e52","success":true,"req_id":"2503d335143d1badceee502811be421f"}

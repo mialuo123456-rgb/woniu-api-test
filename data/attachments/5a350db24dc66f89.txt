@@ -1,0 +1,2 @@
+2026-06-28 13:48:28 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/product/compute/in_price
+2026-06-28 13:48:28 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"商品未找到","trace_id":"75ad783c55937509","success":false,"req_id":"5e1a9b8ea2766127f3896c445e744884"}

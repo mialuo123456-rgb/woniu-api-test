@@ -1,0 +1,2 @@
+2026-06-28 13:47:36 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/user_store_setting/value
+2026-06-28 13:47:36 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"","code":0,"biz_code":0,"message":"","trace_id":"0f1e43681e9ed3cb","success":true,"req_id":"8c68f28b6767ea8aedd84fa3c514d9a6"}

@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/shop/supplier/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"list":[{"supplier_id":58,"shop_id":6419,"name":"供应商","phone":"13698106099","is_del":0,"created":1782142537,"updated":1782142537},{"supplier_id":59,"shop_id":6419,"name":"自动化测试供应商","phone":"13800000000","is_del":0,"created":1782226687,"updated":1782226687},{"supplier_id":60,"shop_

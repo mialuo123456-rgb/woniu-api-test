@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/get_list/new_simple
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"members":null,"other_number":0,"pager":{"limit":15,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0},"tomorrow_number":0},"code":0,"biz_code":0,"message":"","trace_id":"1ceb149e821377e6","success":true,"req_id":"d5093315038011b591ac92d241f80a20"}

@@ -1,0 +1,6 @@
+2026-06-28 13:46:51 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:46:51 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553667},"code":0,"biz_code":0,"message":"","trace_id":"7745f38abacbcd41","success":true,"req_id":"cf4a6e4873a63d8be3f7f90f6de4292c"}
+2026-06-28 13:46:52 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/product/update/stocks
+2026-06-28 13:46:52 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"5f5a235c6d02d795","success":true,"req_id":"303504bf65f7ae3b04b9cff78aaf971d"}
+2026-06-28 13:46:52 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Product/batch_update
+2026-06-28 13:46:52 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"40f1451e76c933c3","success":true,"req_id":"34442669995ea53e5b80e7a3d75c598d"}

@@ -1,0 +1,2 @@
+2026-06-28 13:47:09 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/get_list/new_simple
+2026-06-28 13:47:09 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"members":null,"other_number":0,"pager":{"limit":15,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0},"tomorrow_number":0},"code":0,"biz_code":0,"message":"","trace_id":"2243ad57d283b2d9","success":true,"req_id":"02396f6b9ee4c3db114b22b861fdb961"}

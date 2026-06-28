@@ -1,0 +1,2 @@
+2026-06-28 13:48:59 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/id
+2026-06-28 13:48:59 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"SPU不存在或已下架","trace_id":"5d7a18923ccb0a9d","success":false,"req_id":"505c7087415f2d9302b745fe6b3e4e63"}

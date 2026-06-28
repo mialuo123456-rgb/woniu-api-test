@@ -1,0 +1,2 @@
+2026-06-28 13:46:23 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/getById
+2026-06-28 13:46:23 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"会员不存在 code:-12 999999999","trace_id":"10930cf6452f26e9","success":false,"req_id":"3cf337e1bac016760e63b20c58215afa"}

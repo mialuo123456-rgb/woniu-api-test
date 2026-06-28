@@ -1,0 +1,2 @@
+2026-06-28 13:47:58 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/merchant/brand/get/by_product_name
+2026-06-28 13:47:58 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":[{"id":1800,"logo":"","name":"测试","created":0,"updated":0}],"code":0,"biz_code":0,"message":"","trace_id":"03cb0df6dea34eb0","success":true,"req_id":"d9f2e8eec559fff1534711400190f476"}

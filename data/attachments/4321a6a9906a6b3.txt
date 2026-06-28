@@ -1,0 +1,50 @@
+2026-06-28 13:49:36 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:36 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"0e647e2b17415235","success":false,"req_id":"a516479ec06957a0ca215dde84ae731d"}
+2026-06-28 13:49:36 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:38 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:38 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553684},"code":0,"biz_code":0,"message":"","trace_id":"52cb08b333fe1b35","success":true,"req_id":"4e47367a9dd7b1616419fafe61d3b218"}
+2026-06-28 13:49:39 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:39 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"2dabf071a5fc47b8","success":false,"req_id":"c4e1174a3ecc707b24e6c64c03e014b6"}
+2026-06-28 13:49:39 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:41 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:41 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"58c0547d8682f00c","success":false,"req_id":"38ad9a8b928b7f2bccdddb8bfb600d07"}
+2026-06-28 13:49:41 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 3.0s 后重试 (2/3)
+2026-06-28 13:49:44 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:45 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553685},"code":0,"biz_code":0,"message":"","trace_id":"6c3140f02bb5374e","success":true,"req_id":"6da4691067b4f5688a1ae24d8e927d70"}
+2026-06-28 13:49:45 [INFO] testcases.test_product: [Step1] 创建子商品成功: pid1=104553684, pid2=104553685
+2026-06-28 13:49:45 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/product/compute/in_price
+2026-06-28 13:49:45 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":10,"code":0,"biz_code":0,"message":"","trace_id":"39612421f15f5fde","success":true,"req_id":"ff8dc9c68458236196c79236b7e10209"}
+2026-06-28 13:49:45 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/product/update/lotStock
+2026-06-28 13:49:45 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"630f637e2f77a025","success":true,"req_id":"02bfd0146b8abf9e3c3cf3718f496d91"}
+2026-06-28 13:49:45 [INFO] testcases.test_product: [Step2] 批量入库成功: 各10件
+2026-06-28 13:49:45 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/file/sts
+2026-06-28 13:49:45 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"":{},"AssumedRoleUser":{"AssumedRoleId":"345715395290694575:user_1000482","Arn":"acs:ram::1985728108435944:role/ramosstest/user_1000482"},"Credentials":{"AccessKeySecret":"6ASLbKWQ4M24LDzBa473mZCMjFxoycymBrWpkLTj5LB3","Expiration":"2026-06-28T14:49:45Z","AccessKeyId":"STS.NYxHjDv
+2026-06-28 13:49:45 [INFO] testcases.test_product: [Step3] STS凭证获取成功: mode=test
+2026-06-28 13:49:45 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/spu/save
+2026-06-28 13:49:45 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"6202de0d03415005","success":false,"req_id":"91536f181d9c9e0d502594f685db09dd"}
+2026-06-28 13:49:45 [WARNING] apis.product_api: [重试] 创建组合商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:47 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/spu/save
+2026-06-28 13:49:48 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"","code":0,"biz_code":0,"message":"","trace_id":"5beaf3401174f7e1","success":true,"req_id":"80bf5e426d194316cbe8c46737e78876"}
+2026-06-28 13:49:48 [INFO] testcases.test_product: [Step4] 创建组合商品成功: 自动化测试组合商品
+2026-06-28 13:49:48 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/manage_list
+2026-06-28 13:49:48 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":[{"name":"自动化测试组合商品","head_image":"https://files.woniuxiaodian.cn/test/a547c80c-b130-4d36-8dc6-da51a0383238.png","stock":20,"barcode":"","spu_id":"198092260200424789","product_id":0,"price_desc":"¥50.00","out_price":0,"in_price":0,"vip_price_desc":"","specification":"1kg-17
+2026-06-28 13:49:48 [INFO] testcases.test_product: [Step5] 查询到组合商品: spu_id=198092260200424789
+2026-06-28 13:49:48 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/id
+2026-06-28 13:49:48 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"name":"自动化测试组合商品","head_image":"https://files.woniuxiaodian.cn/test/a547c80c-b130-4d36-8dc6-da51a0383238.png","stock":20,"barcode":"","spu_id":"198092260200424789","product_id":0,"price_desc":"¥50.00","out_price":0,"in_price":0,"vip_price_desc":"","specification":"1kg-1782654579、
+2026-06-28 13:49:48 [INFO] testcases.test_product: [Step6] 详情验证通过: stock=20, skus=2
+2026-06-28 13:49:48 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/spu/save
+2026-06-28 13:49:48 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"535f3e752610e6fb","success":false,"req_id":"d14c4212bed1682fa4cc5b0c6cdfb62c"}
+2026-06-28 13:49:48 [WARNING] apis.product_api: [重试] 创建组合商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:50 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/spu/save
+2026-06-28 13:49:51 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"15aef961f8bef11f","success":false,"req_id":"4d8be15c2afa0dbd74de1da3a14c25f2"}
+2026-06-28 13:49:51 [WARNING] apis.product_api: [重试] 创建组合商品频率限制，等待 3.0s 后重试 (2/3)
+2026-06-28 13:49:54 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/spu/save
+2026-06-28 13:49:54 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"","code":0,"biz_code":0,"message":"","trace_id":"7545e5ed72a5d193","success":true,"req_id":"9f7341d1d3ae311ad14f12b62d013356"}
+2026-06-28 13:49:54 [INFO] testcases.test_product: [Step7] 编辑组合商品成功
+2026-06-28 13:49:54 [INFO] utils.api_client: [DELETE] https://webtest.woniuxiaodian.cn/v2/spu/del?id=198092260200424789&shop_id=6419
+2026-06-28 13:49:54 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"373876e238557e10","success":true,"req_id":"bf488f6e172dbb25c33815a162757c84"}
+2026-06-28 13:49:54 [INFO] testcases.test_product: [清理] 删除组合商品 198092260200424789: 
+2026-06-28 13:49:54 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Product/batch_update
+2026-06-28 13:49:54 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"08225d31bf29d490","success":true,"req_id":"ea13608ca89f31dae9115ecb34a9a787"}
+2026-06-28 13:49:54 [INFO] testcases.test_product: [清理] 批量删除子商品 [104553684, 104553685]: 
+2026-06-28 13:49:54 [INFO] testcases.test_product: [完成] 组合商品完整链路测试结束

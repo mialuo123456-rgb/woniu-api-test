@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/shop/tags/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":2124,"code":0,"biz_code":0,"message":"","trace_id":"0044cd9db1f8d282","success":true,"req_id":"5db12652dfdedce6e05258d9299f7c3a"}

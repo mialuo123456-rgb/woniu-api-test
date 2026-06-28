@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Passport/login
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"验证码和密码必须选择一种登录方式","trace_id":"0657629fbdef8a3a","success":false,"req_id":"158beb6b1b00f5af1e14dda393c2b808"}

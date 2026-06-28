@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/merchant/brand/list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"list":[{"id":1,"logo":"https://file.snailpet.cn/19/18/191884a04d01296bdd98c810ab52cd09.jpg","name":"枫树大道","created":0,"updated":0},{"id":2,"logo":"https://file.snailpet.cn/02/e9/02e9ec52e603e8ee5cd735fd970d5012.jpg","name":"8in1","created":0,"updated":0},{"id":3,"logo":"https://f

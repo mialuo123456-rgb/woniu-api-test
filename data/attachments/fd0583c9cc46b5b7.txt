@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/activation/plus/info
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"vip_plus":{"id":14246,"shop_id":6419,"store_id":5238,"over_time":2145888000,"shop_num":1,"type":1,"type_string":"高级版","plus_level":40,"source":1,"source_string":"","out_id":13131,"cloud_product_num":200,"created":1782141896,"updated":0,"is_expire":0,"sys_timed":1782654605,"is_nee

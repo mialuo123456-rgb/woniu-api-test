@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/member/rfm_level_list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":[{"level":1,"title":"重要价值客户","code":"A级","tags":["高活跃","高忠诚","高消费"],"suggest":"营销建议：\n 1.保持联系：定期与他们沟通，通过【铲屎官小程序】分享新产品、促销和独家优惠。\n2.个性化服务：提供定制化的服务，满足他们的特殊需求。\n3.快速响应：对于他们的咨询和反馈要尽快做出响应。"},{"level":2,"title":"重要发展客户","code":"A级","tags":["高活跃","低忠诚","高消费"],"suggest":"营销建议：\n1.个性化推荐：基于他们

@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Product/getByBarCode
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"条码:ABC!@#$$%商品未找到","trace_id":"06370803cad69a9b","success":false,"req_id":"9fd79c790beeefcc1a0cf00bdfb7b270"}

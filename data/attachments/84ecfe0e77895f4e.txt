@@ -1,0 +1,2 @@
+2026-06-28 13:47:28 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/getMemberOnceCards
+2026-06-28 13:47:28 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":null,"code":0,"biz_code":0,"message":"","trace_id":"427eeeb06d90caed","success":true,"req_id":"c9ff2598ede60afd09de2fa429f40994"}

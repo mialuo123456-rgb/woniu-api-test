@@ -1,0 +1,17 @@
+2026-06-28 13:47:01 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+2026-06-28 13:47:01 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":26476942,"code":0,"biz_code":0,"message":"","trace_id":"68a5054aa237b8d6","success":true,"req_id":"c827ba877c0dbf77f687a4db43aa461f"}
+2026-06-28 13:47:01 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/get_list/new_simple
+2026-06-28 13:47:01 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"members":[{"member_id":26476942,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"自动化测试会员","pin_code":"zdhcshy zidonghuaceshihuiyuancscw ceshichongwu","avatar":"","phone":"13882654421","sex":1,"birthday":0,"birth_year_day":0,"mark":"自动化测试备注","addr":"","qq":"","weixin
+2026-06-28 13:47:01 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/getById
+2026-06-28 13:47:02 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"member_id":26476942,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"自动化测试会员","pin_code":"zdhcshy zidonghuaceshihuiyuancscw ceshichongwu","avatar":"","phone":"13882654421","sex":1,"birthday":0,"birth_year_day":0,"mark":"自动化测试备注","addr":"","qq":"","weixin":"","email"
+2026-06-28 13:47:02 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:47:02 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553670},"code":0,"biz_code":0,"message":"","trace_id":"238c3dbba14a93a9","success":true,"req_id":"894e9673651ae585fa489117c3d914ad"}
+2026-06-28 13:47:02 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/product/update/stocks
+2026-06-28 13:47:03 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"48d4744c6a6671f8","success":true,"req_id":"f77effe60376ccedde7f694c26012fba"}
+2026-06-28 13:47:03 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Members/getById
+2026-06-28 13:47:03 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"member_id":26476942,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"自动化测试会员","pin_code":"zdhcshy zidonghuaceshihuiyuancscw ceshichongwu","avatar":"","phone":"13882654421","sex":1,"birthday":0,"birth_year_day":0,"mark":"自动化测试备注","addr":"","qq":"","weixin":"","email"
+2026-06-28 13:47:03 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/manage_list
+2026-06-28 13:47:03 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":[{"name":"自动化测试商品","head_image":"","stock":15,"barcode":"","spu_id":"","product_id":104553670,"price_desc":"¥50.00","out_price":50,"in_price":10,"vip_price_desc":"","specification":"","order_by_data":"更新时间: 2026-06-28 21:47","category_id":97383,"is_server":0,"skus":null,"sp
+2026-06-28 13:47:03 [INFO] testcases.test_keyword_driven: [组合流程] 会员 26476942，商品 104553670
+2026-06-28 13:47:03 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Product/batch_update
+2026-06-28 13:47:03 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"62149454f3527c73","success":true,"req_id":"5240f5699aebb1d5c0b60c38267357e5"}

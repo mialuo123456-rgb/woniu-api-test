@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/spu/id
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"SPU不存在或已下架","trace_id":"2a43a425fba8a39c","success":false,"req_id":"4700f2d1d90df4aa6d37f76718ffbd8e"}

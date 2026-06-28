@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Shop/getMessageSetting
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"setting":{"Bespoke":{"id":39000,"shop_id":6419,"store_id":5238,"key":"Bespoke","val":"0","user_ids":"","opt_user_id":0,"created":1665730663,"updated":1665730663,"name":""},"BespokeFinish":{"id":39007,"shop_id":6419,"store_id":5238,"key":"BespokeFinish","val":"0","user_ids":"","op

@@ -1,0 +1,2 @@
+2026-06-28 13:48:27 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/product/compute/in_price
+2026-06-28 13:48:27 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"入库数量不能为0","trace_id":"72bf6e53f0810c84","success":false,"req_id":"b16268fc4fdc2c11d2c510f424eadc86"}

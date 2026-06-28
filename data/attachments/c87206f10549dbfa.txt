@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"手机号码格式错误","trace_id":"26fb20aeb430002e","success":false,"req_id":"bc6877f9c001c6afa5898f486d7e2d85"}

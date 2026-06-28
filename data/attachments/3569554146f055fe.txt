@@ -1,0 +1,2 @@
+2026-06-28 13:48:43 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/file/sts
+2026-06-28 13:48:43 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"":{},"AssumedRoleUser":{"AssumedRoleId":"345715395290694575:user_1000482","Arn":"acs:ram::1985728108435944:role/ramosstest/user_1000482"},"Credentials":{"AccessKeySecret":"8wYMx84njBHgAeyzLeStjqrugWFFXZHQUonK5BmWrgJ4","Expiration":"2026-06-28T14:48:43Z","AccessKeyId":"STS.NYcupHz

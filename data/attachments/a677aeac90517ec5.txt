@@ -1,0 +1,2 @@
+2026-06-28 13:46:05 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/cash_list
+2026-06-28 13:46:05 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":null,"pager":{"limit":50,"currentPage":1,"page":1,"pageCount":0,"page_count":0,"offset":0,"count":0}},"code":0,"biz_code":0,"message":"","trace_id":"503edaca37b58951","success":true,"req_id":"dfd3c9ad4f7b2376b60fc328aa23bbc8"}

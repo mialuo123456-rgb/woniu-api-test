@@ -1,0 +1,10 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"50a22d6e7dc8be3f","success":false,"req_id":"09b1ebadd6c2fe8c05cb634690d8459a"}
+WARNING  apis.product_api:product_api.py:62 [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"36cde7a9035be77c","success":false,"req_id":"202c42b2e1e1e82cb95854fd3c396c23"}
+WARNING  apis.product_api:product_api.py:62 [重试] 创建商品频率限制，等待 3.0s 后重试 (2/3)
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553680},"code":0,"biz_code":0,"message":"","trace_id":"09dab778b06b550a","success":true,"req_id":"9b5a787c9b4d7032e5e2168f1c9675e1"}
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Product/batch_update
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"59cb725547e8ac9e","success":true,"req_id":"17e4af0c1eeac9e6bb04bff70574c510"}

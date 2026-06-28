@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/getMemberOnceCards
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"会员不存在 code:-17 999999999","trace_id":"0c77466c92e25b0b","success":false,"req_id":"a271427a8fd37f86fba279a815bffe0b"}

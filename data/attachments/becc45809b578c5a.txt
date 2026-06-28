@@ -1,0 +1,2 @@
+2026-06-28 13:46:20 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/mall/we_chat_qr_image
+2026-06-28 13:46:21 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"https://files.woniuxiaodian.cn/test/27d38f73d09f9dfe3188a947b35893ef.jpeg","code":0,"biz_code":0,"message":"","trace_id":"3ae991505a4838e7","success":true,"req_id":"112688dbe2265bf57ddc77f54997d16b"}

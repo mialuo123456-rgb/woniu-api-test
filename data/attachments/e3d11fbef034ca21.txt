@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/getMemberOnceCards
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":null,"code":0,"biz_code":0,"message":"","trace_id":"427eeeb06d90caed","success":true,"req_id":"c9ff2598ede60afd09de2fa429f40994"}

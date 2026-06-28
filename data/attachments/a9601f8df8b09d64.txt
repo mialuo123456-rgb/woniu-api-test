@@ -1,0 +1,9 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"3bb1c25a295dd8e3","success":false,"req_id":"cb2894e7371fb37717dc56df4e57622a"}
+WARNING  apis.product_api:product_api.py:62 [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553674},"code":0,"biz_code":0,"message":"","trace_id":"2719cb24d40bec9b","success":true,"req_id":"71000cd1e2585c7308c42c317cb7284b"}
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/product/update/lotStock
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"6340341127153afe","success":true,"req_id":"74a483c92ba74e3e870ae8ec570d7505"}
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Product/delByIds
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"6f94e5f37f198212","success":true,"req_id":"5b176a57fc012a112e6c0f7288d6d091"}

@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/user_store_setting/value
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":"","code":0,"biz_code":0,"message":"","trace_id":"0f1e43681e9ed3cb","success":true,"req_id":"8c68f28b6767ea8aedd84fa3c514d9a6"}

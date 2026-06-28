@@ -1,0 +1,8 @@
+2026-06-28 13:48:03 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:48:03 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"661c8b8bb202ebab","success":false,"req_id":"958755a9520ba480b6a343a574f5125f"}
+2026-06-28 13:48:03 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:48:05 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:48:05 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"0b3d7ea2af6a3262","success":false,"req_id":"8729763289a8fe520034355bcde85451"}
+2026-06-28 13:48:05 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 3.0s 后重试 (2/3)
+2026-06-28 13:48:08 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:48:08 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"零元商品 进价和售价不能同时为0","trace_id":"05f1a2e8ab0fa408","success":false,"req_id":"65a773ca4e3b16d838428d7e4a00a0bd"}

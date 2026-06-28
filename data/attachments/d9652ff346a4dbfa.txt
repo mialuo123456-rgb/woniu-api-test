@@ -1,0 +1,11 @@
+2026-06-28 13:49:21 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:21 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"0f2a839dbacba562","success":false,"req_id":"c4f1cf25ed283639b4dc9f1ec39115e6"}
+2026-06-28 13:49:21 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:23 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:49:23 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553681},"code":0,"biz_code":0,"message":"","trace_id":"4122b54321b097ac","success":true,"req_id":"b3ac7e18b128168ea81f8fda8e1e0400"}
+2026-06-28 13:49:23 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/manage_list
+2026-06-28 13:49:23 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":[{"name":"自动化测试商品","head_image":"","stock":0,"barcode":"","spu_id":"","product_id":104553681,"price_desc":"¥50.00","out_price":50,"in_price":10,"vip_price_desc":"","specification":"","order_by_data":"更新时间: 2026-06-28 21:49","category_id":97383,"is_server":0,"skus":null,"spu
+2026-06-28 13:49:23 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/product/update/stocks
+2026-06-28 13:49:24 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"745d5603ab4ea41a","success":true,"req_id":"5a07582b6efaae5e8ac88dca81e9642d"}
+2026-06-28 13:49:24 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Product/delByIds
+2026-06-28 13:49:24 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"6d79ca4cb711a71c","success":true,"req_id":"0e16c5a5deb60339bf542748e6447d37"}

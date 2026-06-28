@@ -1,0 +1,12 @@
+2026-06-28 13:48:21 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:48:21 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"1d402fc60e8cf03b","success":false,"req_id":"f99fe7206a2949614e1383a7fbd13e38"}
+2026-06-28 13:48:21 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:48:23 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:48:23 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"7a484fa965df2dc7","success":false,"req_id":"a31d3b319c98b480ce4e134d3ba7522a"}
+2026-06-28 13:48:23 [WARNING] apis.product_api: [重试] 创建商品频率限制，等待 3.0s 后重试 (2/3)
+2026-06-28 13:48:26 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+2026-06-28 13:48:27 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553673},"code":0,"biz_code":0,"message":"","trace_id":"0a4f2900785a1b3d","success":true,"req_id":"1ef1a2202ed01ca40360bb6fc8dfd044"}
+2026-06-28 13:48:27 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/product/compute/in_price
+2026-06-28 13:48:27 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":10,"code":0,"biz_code":0,"message":"","trace_id":"324e6eba768d748a","success":true,"req_id":"c00e86267cd61eef7f967fa348215497"}
+2026-06-28 13:48:27 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/Product/delByIds
+2026-06-28 13:48:27 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"05343fac110e7b7c","success":true,"req_id":"2b4433807562d67387f93b86916948c7"}

@@ -1,0 +1,4 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/sku/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"spu_id":"","product_id":104553671},"code":0,"biz_code":0,"message":"","trace_id":"1cf39adfead1939a","success":true,"req_id":"45dfa48f0a81232dc7a05be8e8e0748f"}
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Product/delByIds
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"3f92793a9c70798f","success":true,"req_id":"fed7eda3468d1b06791eb7340c4717a3"}

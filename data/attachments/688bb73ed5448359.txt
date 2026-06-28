@@ -1,0 +1,2 @@
+2026-06-28 13:47:51 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/manage_list
+2026-06-28 13:47:51 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":[{"name":"测试商品","head_image":"","stock":0,"barcode":"0000782559359","spu_id":"","product_id":104534575,"price_desc":"¥100.00","out_price":100,"in_price":10,"vip_price_desc":"","specification":"1","order_by_data":"更新时间: 2026-06-27 19:23","category_id":2019135,"is_server":0,"

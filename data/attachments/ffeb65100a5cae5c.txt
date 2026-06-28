@@ -1,0 +1,4 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/cats/change_member
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"products":null,"shop_id":6419,"store_id":5238,"notice_vip_info":"","notice_vip_kind":0,"user_id":1000482,"member_id":-1,"cart_type":0,"out_id":0,"member_info":null,"os":"macos","deposit":0,"deposit_pay_way":0,"total_num":0,"total_product_price":0,"total_price":0,"pre_total_price"
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/carts/build_order_new
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请选择商品","trace_id":"23c2e39a7bec666b","success":false,"req_id":"50345d7586a69c388802f5cb4cf57fb2"}

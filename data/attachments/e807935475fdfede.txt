@@ -1,0 +1,2 @@
+2026-06-28 13:47:55 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/merchant/category/list
+2026-06-28 13:47:55 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":[{"id":-1,"name":"全部"}],"code":0,"biz_code":0,"message":"","trace_id":"4aa307ce946cceac","success":true,"req_id":"c99636cefa03ab932a14094a8d3aee00"}

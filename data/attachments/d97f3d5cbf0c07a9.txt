@@ -1,0 +1,2 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/file/sts
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"":{},"AssumedRoleUser":{"AssumedRoleId":"345715395290694575:user_1000482","Arn":"acs:ram::1985728108435944:role/ramosstest/user_1000482"},"Credentials":{"AccessKeySecret":"DqRZfDq1Ad2azYrQUq9UzGTarArwLTEfeCKoRGzbZ2uH","Expiration":"2026-06-28T14:48:45Z","AccessKeyId":"STS.NZ8Znuf

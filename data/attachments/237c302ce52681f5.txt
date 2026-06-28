@@ -1,0 +1,8 @@
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"与自动化测试会员电话重复","trace_id":"0750b19fd35621eb","success":false,"req_id":"5f4a4b92844d15ee6b7142b0138604c7"}
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":26476939,"code":0,"biz_code":0,"message":"","trace_id":"6f5b6dacf8a49867","success":true,"req_id":"7455b9ee6ec2a055e6f76d72fee60b66"}
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/get_list/new_simple
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"members":[{"member_id":26476939,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"自动化测试会员","pin_code":"zdhcshy zidonghuaceshihuiyuancscw ceshichongwu","avatar":"","phone":"13882654405","sex":1,"birthday":0,"birth_year_day":0,"mark":"自动化测试备注","addr":"","qq":"","weixin
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/getById
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"member_id":26476939,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"自动化测试会员","pin_code":"zdhcshy zidonghuaceshihuiyuancscw ceshichongwu","avatar":"","phone":"13882654405","sex":1,"birthday":0,"birth_year_day":0,"mark":"自动化测试备注","addr":"","qq":"","weixin":"","email"

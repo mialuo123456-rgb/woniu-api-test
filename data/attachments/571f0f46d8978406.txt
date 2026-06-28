@@ -1,0 +1,2 @@
+2026-06-28 13:47:59 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Product/getByBarCode
+2026-06-28 13:47:59 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"条码:12345678商品未找到","trace_id":"7752ae82e8a0ac77","success":false,"req_id":"90d62963d52d70e073a5f433d160db05"}

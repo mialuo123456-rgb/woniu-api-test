@@ -1,0 +1,13 @@
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Species/getLevel
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":[{"species_id":1,"name":"狗","pid":0,"is_recommend":0,"type":"","avatar":"","pinyin":"g gou","list":[{"species_id":3,"name":"阿拉斯加雪橇犬","pid":1,"is_recommend":1,"type":"bigDog","avatar":"","pinyin":"alsjxqq alasijiaxueqiaoquan","list":null},{"species_id":8,"name":"边境牧羊犬","pid":1,"is_r
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/shop/tags/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":2126,"code":0,"biz_code":0,"message":"","trace_id":"6d5903bfba5e3eba","success":true,"req_id":"c9b6431513e436c2447ebd3336c1c45b"}
+INFO     utils.api_client:api_client.py:102 [POST] https://webtest.woniuxiaodian.cn/v2/Members/add
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":26476941,"code":0,"biz_code":0,"message":"","trace_id":"0dcb4596b2b3774f","success":true,"req_id":"9614afa9240037c60648d6a337da5ba7"}
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/get_list/new_simple
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"members":[{"member_id":26476941,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"自动化测试会员","pin_code":"zdhcshy zidonghuaceshihuiyuancscw ceshichongwu","avatar":"","phone":"13882654408","sex":1,"birthday":0,"birth_year_day":0,"mark":"自动化测试备注","addr":"","qq":"","weixin
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/Members/getById
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":{"member_id":26476941,"shop_id":6419,"store_id":5238,"store_name":"微信注册测试账号","name":"自动化测试会员","pin_code":"zdhcshy zidonghuaceshihuiyuancscw ceshichongwu","avatar":"","phone":"13882654408","sex":1,"birthday":0,"birth_year_day":0,"mark":"自动化测试备注","addr":"","qq":"","weixin":"","email"
+INFO     utils.api_client:api_client.py:102 [GET] https://webtest.woniuxiaodian.cn/v2/member/rfm_level_list
+INFO     utils.api_client:api_client.py:105 [RESP] 200 body={"error":0,"data":[{"level":1,"title":"重要价值客户","code":"A级","tags":["高活跃","高忠诚","高消费"],"suggest":"营销建议：\n 1.保持联系：定期与他们沟通，通过【铲屎官小程序】分享新产品、促销和独家优惠。\n2.个性化服务：提供定制化的服务，满足他们的特殊需求。\n3.快速响应：对于他们的咨询和反馈要尽快做出响应。"},{"level":2,"title":"重要发展客户","code":"A级","tags":["高活跃","低忠诚","高消费"],"suggest":"营销建议：\n1.个性化推荐：基于他们
+INFO     testcases.test_keyword_driven:test_keyword_driven.py:125 [完整流程] 创建会员 26476941，标签 2126

@@ -1,0 +1,2 @@
+2026-06-28 13:47:53 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/spu/manage_list
+2026-06-28 13:47:53 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":null,"pager":{"limit":15,"currentPage":9999,"page":9999,"pageCount":1,"page_count":1,"offset":149970,"count":11},"sum":{"sum_stocks":188,"sum_price":989}},"code":0,"biz_code":0,"message":"","trace_id":"17c919fcde9ce927","success":true,"req_id":"3f29b4c5e62201174c6ad0c528f65

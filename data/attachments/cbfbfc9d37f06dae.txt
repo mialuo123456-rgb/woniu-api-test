@@ -1,0 +1,2 @@
+2026-06-28 13:46:38 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/member/tags/default_list
+2026-06-28 13:46:38 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":[{"tag_id":1220,"name":"好说话"},{"tag_id":1221,"name":"抠门"},{"tag_id":1222,"name":"消费能力强"},{"tag_id":1223,"name":"猫奴"},{"tag_id":1224,"name":"喜欢进口粮"},{"tag_id":1225,"name":"不喜欢买货"},{"tag_id":1226,"name":"有固定工作"},{"tag_id":1227,"name":"学生党"},{"tag_id":1228,"name":"爱干净"},{"tag_id":1229

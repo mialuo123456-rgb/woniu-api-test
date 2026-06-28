@@ -1,0 +1,8 @@
+2026-06-28 13:49:25 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/shop/supplier/save
+2026-06-28 13:49:25 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":"success","code":0,"biz_code":0,"message":"","trace_id":"0886e4b0aa6943cf","success":true,"req_id":"aea5d8d5d493255603524655f73490c8"}
+2026-06-28 13:49:25 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/shop/supplier/list
+2026-06-28 13:49:25 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":{"list":[{"supplier_id":58,"shop_id":6419,"name":"供应商","phone":"13698106099","is_del":0,"created":1782142537,"updated":1782142537},{"supplier_id":59,"shop_id":6419,"name":"自动化测试供应商","phone":"13800000000","is_del":0,"created":1782226687,"updated":1782226687},{"supplier_id":60,"shop_
+2026-06-28 13:49:25 [INFO] testcases.test_product: [验证] 找到供应商 ID: 83
+2026-06-28 13:49:25 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/shop/supplier/delete
+2026-06-28 13:49:26 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"参数错误 supplier DeleteById","trace_id":"1bc0be62a532f494","success":false,"req_id":"cfae7b37842bee2225f22eb51fd60872"}
+2026-06-28 13:49:26 [INFO] testcases.test_product: [清理] 删除供应商 83: 参数错误 supplier DeleteById

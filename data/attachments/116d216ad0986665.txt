@@ -1,0 +1,2 @@
+2026-06-28 13:47:33 [INFO] utils.api_client: [GET] https://webtest.woniuxiaodian.cn/v2/Shop/getStaff
+2026-06-28 13:47:33 [INFO] utils.api_client: [RESP] 200 body={"error":0,"data":[{"user_shop_id":23318,"is_main_store":0,"user_id":1000334,"shop_id":6419,"store_id":5238,"type":2,"created":1665730663,"user_name":"饼子","is_default":1,"sex":1,"powers":"37,38,39,40,41,42,48,56,58,2,12,24,28,29,36,4,6,18,34,35,45,46,61,65,5,11,13,26,30,32,33,63,66,7,8,9,10,31,50,51

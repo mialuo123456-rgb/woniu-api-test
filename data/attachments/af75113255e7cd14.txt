@@ -1,0 +1,5 @@
+2026-06-28 13:49:00 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/spu/save
+2026-06-28 13:49:00 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"请求过于频繁","trace_id":"7b4bec9752a445a3","success":false,"req_id":"e81972f111c941bb98304b32941c9414"}
+2026-06-28 13:49:00 [WARNING] apis.product_api: [重试] 创建组合商品频率限制，等待 2.0s 后重试 (1/3)
+2026-06-28 13:49:02 [INFO] utils.api_client: [POST] https://webtest.woniuxiaodian.cn/v2/spu/save
+2026-06-28 13:49:02 [INFO] utils.api_client: [RESP] 200 body={"error":1,"data":null,"code":50001,"biz_code":50001,"message":"sku不能为空","trace_id":"64634e544c2882e7","success":false,"req_id":"a1b78db8eb0be3dda52fedfd301bbdc4"}
